@@ -12,7 +12,8 @@ trigger:
 pool: myAgentPool
 
 variables:
-  azureSubscription: 'devopstoazureconnection'
+  azureSubscription: '47bf7713-533e-4f12-98d2-dcd63866167c'
+  azureServiceConnectionId: 'devopstoazureconnection'
   appType: 'webAppLinux'
   appName: 'flaskpythonapp2'
   deployToSlotOrASE: true
