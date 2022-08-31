@@ -18,6 +18,7 @@ variables:
   deployToSlotOrASE: true
   resourceGroupName: 'Azuredevops'
   slotName: 'production'
+  environmentName: 'myrepo'
   package: '$(System.DefaultWorkingDirectory)/**/*.zip'
   runtimeStack: 'PYTHON|3.9'
   startUpCommand: 'python app.py'
