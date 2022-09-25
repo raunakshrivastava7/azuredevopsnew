@@ -34,24 +34,34 @@ Link to a spreadsheet that includes the original and final project plan : https:
 ![alt text](https://github.com/raunakshrivastava7/azuredevopsnew/blob/main/screenshots/webapp_home.png)
 
 
-* Passing tests that are displayed after running the `make all` command from the `Makefile`
+7. Login to dev.azure.com and create a public project 'Flask-ML-Deploy'. In Devops portal, create Personal Access Token and Service Connection.
 
-* Output of a test run
+8. In Flask-ML-Deploy project, create a new Agent pool 'newpool'.
+![alt text](https://github.com/raunakshrivastava7/azuredevopsnew/blob/main/screenshots/agent_pool.png)
 
-* Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
-* Running Azure App Service from Azure Pipelines automatic deployment
+9. Create a new VM in Azure portal and setup the environment.
+![alt text](https://github.com/raunakshrivastava7/azuredevopsnew/blob/main/screenshots/agent_pool_vm2.png)
 
-* Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
-The output should look similar to this:
+10. Create Pipeline in Azure Devops portal and manually run the pipeline to verify if it is running successfully.
+![alt text](https://github.com/raunakshrivastava7/azuredevopsnew/blob/main/screenshots/azure_pipeline_manual_run.png)
+![alt text](https://github.com/raunakshrivastava7/azuredevopsnew/blob/main/screenshots/azure_pipeline_build.png)
+![alt text](https://github.com/raunakshrivastava7/azuredevopsnew/blob/main/screenshots/azure_pipeline_deploy.png)
 
-```bash
-udacity@Azure:~$ ./make_predict_azure_app.sh
-Port: 443
-{"prediction":[20.35373177134412]}
-```
 
-* Output of streamed log files from deployed application
+11. Trigger the Azure Pipelines automatic running by updating the code in Azuredevopsnew repository.
+![alt text](https://github.com/raunakshrivastava7/azuredevopsnew/blob/main/screenshots/azure_pipeline_run_by_github_action.png)
+
+
+12. Successful prediction from deployed flask app in Azure Cloud Shell. Run make_predict_azure_app.sh file to get the prediction result.
+![alt text](https://github.com/raunakshrivastava7/azuredevopsnew/blob/main/screenshots/webapp_correct_prediction.png)
+
+13. Output of streamed log files from deployed application
+![alt text](https://github.com/raunakshrivastava7/azuredevopsnew/blob/main/screenshots/webapp_log2.png)
+
+
+14. Locust test output :
+![alt text](https://github.com/raunakshrivastava7/azuredevopsnew/blob/main/screenshots/Locust_log4.png)
 
 > 
 
@@ -61,7 +71,7 @@ The project can be immproved further by a having a more descriptive home page of
 
 ## Demo 
 
-<TODO: Add link Screencast on YouTube>
+* Youtube link of project demo : 
 
 
 <img width="1391" alt="image" src="https://user-images.githubusercontent.com/13537446/187718276-e377eb78-9d5f-4bd3-821c-26094fb9135e.png">
