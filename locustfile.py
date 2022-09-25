@@ -1,5 +1,4 @@
 import time
-from xmlrpc.client import _HostType
 from locust import HttpUser, task, between
 
 class QuickstartUser(HttpUser):
