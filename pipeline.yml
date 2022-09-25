@@ -35,7 +35,7 @@ stages:
   displayName: Build stage
   jobs:
   - job: BuildJob
-    pool: myAgentPool
+    pool: newpool
     steps:    
     - script: |
         python3.7 -m pip install --upgrade pip
@@ -67,14 +67,14 @@ stages:
   condition: succeeded()
   jobs:
   - deployment: DeploymentJob
-    pool: myAgentPool
+    pool: newpool
     environment: $(environmentName)
     strategy:
       runOnce:
         deploy:
           steps:
           - task: AzureWebApp@1
-            displayName: 'Deploy Azure Web App : flask-ml-service'
+            displayName: 'Deploy Azure Web App : flaskcicdproject4'
             inputs:
               azureSubscription: $(azureServiceConnectionId)
               appName: $(webAppName)
