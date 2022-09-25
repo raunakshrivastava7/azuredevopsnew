@@ -15,11 +15,24 @@ Link to a spreadsheet that includes the original and final project plan : https:
 
 ![alt text](https://github.com/raunakshrivastava7/azuredevopsnew/blob/main/screenshots/Archdiagram.png)
 
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
+* Instructions for running the Python project:>
 
-* Project running on Azure App Service
+1. Create 'Azuredevopsnew' repository in your Github account. Integrate GitFlow Actions with the repository.
+![alt text](https://github.com/raunakshrivastava7/azuredevopsnew/blob/main/screenshots/GithubActionWorkflow.png)
 
-* Project cloned into Azure Cloud Shell
+2. Login to Azure Bash shell and create a SSH key. Define the SSH key in Github profile settings.
+3. Clone the Azuredevopsnew repository in Azure shell using this command : git clone git@github.com:raunakshrivastava7/azuredevopsnew.git
+
+![alt text](https://github.com/raunakshrivastava7/azuredevopsnew/blob/main/screenshots/git%20clone.png)
+
+4. Run the command in Azure to setup the environment for web application : make all
+![alt text](https://github.com/raunakshrivastava7/azuredevopsnew/blob/main/screenshots/successful%20make.png)
+
+5. Create the web application using this command : az webapp up --name flaskcicdproject4 --resource-group Azuredevops --runtime "PYTHON:3.7"
+
+6. Open https://flaskcicdproject4.azurewebsites.net/ to verify if the app is running successfully.
+![alt text](https://github.com/raunakshrivastava7/azuredevopsnew/blob/main/screenshots/webapp_home.png)
+
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 
