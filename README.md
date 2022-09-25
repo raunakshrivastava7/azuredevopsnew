@@ -13,7 +13,7 @@ Link to a spreadsheet that includes the original and final project plan : https:
 
 * Architectural Diagram (Shows how key parts of the system work)>
 
-![alt text](https://github.com/raunakshrivastava7/Azuredevopsnew/blob/main/screenshots/Archdiagram.jpg?raw=true)
+![alt text](https://github.com/raunakshrivastava7/zzuredevopsnew/main/screenshots/Archdiagram.png?raw=true)
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
