@@ -24,6 +24,5 @@ curl -d '{
       "0":4.98
    }
 }'\
-     -H "Content-Type:application/json" \
-     -X POST https://flaskcicdproject4.azurewebsites.net:$PORT/predict 
+     -H "Content-Type:application/json" -X POST https://flaskcicdproject4.azurewebsites.net:$PORT/predict 
      #your application name <yourappname>goes here
