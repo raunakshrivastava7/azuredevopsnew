@@ -7,6 +7,7 @@ install:
 
 test:
 	python3 -m pytest -vv test_hello.py
+	locust -f locustfile.py --headless --host https://flaskcicdproject4.azurewebsites.net -u 10 -r 1 --run-time 2m
 	
 
 
