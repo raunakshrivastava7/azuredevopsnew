@@ -5,7 +5,8 @@
 ## Project Plan
 <TODO: Project Plan
 
-* A link to a Trello board for the project
+Trello Link : https://trello.com/invite/b/RZyeVL2j/3509cb54122f1bea307fd9eac2b1768d/udacityazuredevopsproject
+
 * A link to a spreadsheet that includes the original and final project plan>
 
 ## Instructions
