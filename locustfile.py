@@ -4,7 +4,6 @@ from locust import HttpUser, task, between
 
 class QuickstartUser(HttpUser):
     wait_time = between(1, 3)
-    host = "http://localhost:5000"
 
     @task
     def load_page(self):
