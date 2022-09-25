@@ -56,7 +56,8 @@ Link to a spreadsheet that includes the original and final project plan : https:
 12. Successful prediction from deployed flask app in Azure Cloud Shell. Run make_predict_azure_app.sh file to get the prediction result.
 ![alt text](https://github.com/raunakshrivastava7/azuredevopsnew/blob/main/screenshots/webapp_correct_prediction.png)
 
-13. Output of streamed log files from deployed application
+13. Get the output of streamed log files from deployed application using this command : az webapp log tail --name flaskcicdproject4 --resource-group Azuredevops --ids /subscriptions/0c7436df-9359-4a04-b572-96ab6d89334c/resourceGroups/Azuredevops/providers/Microsoft.Web/sites/flaskcicdproject4
+
 ![alt text](https://github.com/raunakshrivastava7/azuredevopsnew/blob/main/screenshots/webapp_log2.png)
 
 
@@ -71,9 +72,6 @@ The project can be immproved further by a having a more descriptive home page of
 
 ## Demo 
 
-* Youtube link of project demo : 
-
-
-<img width="1391" alt="image" src="https://user-images.githubusercontent.com/13537446/187718276-e377eb78-9d5f-4bd3-821c-26094fb9135e.png">
+* Youtube link of project demo : https://youtu.be/tOXrh8WHMbE
 
 
