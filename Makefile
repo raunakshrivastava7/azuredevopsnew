@@ -7,7 +7,7 @@ install:
 
 test:
 	python3 -m pytest -vv test_hello.py
-	locust -f locustfile.py --headless -u 10 -r 1 --run-time 2m
+	locust -f locustfile.py --headless --host http://localhost:5000 -u 10 -r 1 --run-time 2m
 
 
 lint:
