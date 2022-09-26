@@ -3,7 +3,7 @@
 # Overview
 
 This project demonstrates a CI/CD pipeline to automatically integrate and deploy a Flask based web application using Gihub Actions and Azure Devops features.
-The project has a Flask based web application to predict housing prices in Boston using machine learning algorithms
+The project has a Flask based web application to predict housing prices in Boston using machine learning algorithms. The Web application code is maintained in a Github repository. GitHub Actions is integrated with the repository to automatically build and test the changes pushed to the repoository. The repository is cloned in Azure and the web app is created in Azure. There is and Azure Devops project with Agent pool and Pipeline linked with the Github repository to enable Continuous deployment of the web application.
 
 
 ## Project Plan
@@ -15,14 +15,16 @@ Link to a spreadsheet that includes the original and final project plan : https:
 
 ## Instructions
 
-* Architectural Diagram (Shows how key parts of the system work)>
+* Architectural Diagram>
 
 ![alt text](https://github.com/raunakshrivastava7/azuredevopsnew/blob/main/screenshots/Archdiagram.png)
 
 * Instructions for running the Python project:>
 
-1. Create 'Azuredevopsnew' repository in your Github account. Integrate GitFlow Actions with the repository.
+1. Create 'Azuredevopsnew' repository in your Github account. Integrate GitHub Actions with the repository. Whenever an update happens in the repository code, the GitHub Actions workflow runs, builds the updated code and tests it.
 ![alt text](https://github.com/raunakshrivastava7/azuredevopsnew/blob/main/screenshots/GithubActionWorkflow.png)
+
+![alt text](https://github.com/raunakshrivastava7/azuredevopsnew/blob/main/screenshots/GithubActionsWorkflow.png)
 
 2. Login to Azure Bash shell and create a SSH key. Define the SSH key in Github profile settings.
 3. Clone the Azuredevopsnew repository in Azure shell using this command : git clone git@github.com:raunakshrivastava7/azuredevopsnew.git
