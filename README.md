@@ -1,3 +1,5 @@
+![build workflow](https://github.com/raunakshrivastava7/azuredevopsnew/actions/workflows/pythonapp.yml/badge.svg)
+
 # Overview
 
 <TODO: complete this with an overview of your project>
