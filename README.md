@@ -17,7 +17,7 @@ Link to a spreadsheet that includes the original and final project plan : https:
 
 * Architectural Diagram>
 
-![alt text](https://github.com/raunakshrivastava7/azuredevopsnew/blob/main/screenshots/Archdiagram.png)
+![alt text](https://github.com/raunakshrivastava7/azuredevopsnew/blob/main/screenshots/Archdiagram2.png)
 
 * Instructions for running the Python project:>
 
@@ -74,7 +74,8 @@ Link to a spreadsheet that includes the original and final project plan : https:
 
 ## Enhancements
 
-The project can be immproved further by a having a more descriptive home page of the Flask web application with the explanation about its objective, input format and output. The landing page should have an option to provide input and a button clicking on whcih the prediction result should be displayed to the user.
+The project can be improved further by deploying the web app to a Kubernetes cluster so that it can be easily scaled and maintained as per requirement. 
+Another approach to improve the project is to have separate Development, QA and Production environments. The Development environment should be used for development of the app. After development, the app should be deployed in QA envitonment for QA, testing and fixes. Finally, the bug-free app should be deployed in Production environment.
 
 ## Demo 
 
