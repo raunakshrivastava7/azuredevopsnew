@@ -15,11 +15,11 @@ Link to a spreadsheet that includes the original and final project plan : https:
 
 ## Instructions
 
-* Architectural Diagram>
+* Architectural Diagram:
 
 ![alt text](https://github.com/raunakshrivastava7/azuredevopsnew/blob/main/screenshots/Archdiagram2.png)
 
-* Instructions for running the Python project:>
+* Instructions for running the Python project:
 
 1. Create 'Azuredevopsnew' repository in your Github account. Integrate GitHub Actions with the repository. Whenever an update happens in the repository code, the GitHub Actions workflow runs, builds the updated code and tests it.
 ![alt text](https://github.com/raunakshrivastava7/azuredevopsnew/blob/main/screenshots/GithubActionWorkflow.png)
