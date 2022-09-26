@@ -8,7 +8,7 @@ The project has a Flask based web application to predict housing prices in Bosto
 
 ## Project Plan
 
-Trello Link : https://trello.com/invite/b/RZyeVL2j/3509cb54122f1bea307fd9eac2b1768d/udacityazuredevopsproject
+Trello Link : https://trello.com/b/RZyeVL2j/udacityazuredevopsproject
 
 Link to a spreadsheet that includes the original and final project plan : https://docs.google.com/spreadsheets/d/1g1Ow5obzBnpcr1a2J7A1gY5bRy2V1mKvbq2ytTphvyE/edit?usp=sharing
 
