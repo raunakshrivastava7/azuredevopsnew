@@ -2,7 +2,9 @@
 
 # Overview
 
-<TODO: complete this with an overview of your project>
+This project demonstrates a CI/CD pipeline to automatically integrate and deploy a Flask based web application using Gihub Actions and Azure Devops features.
+The project has a Flask based web application to predict housing prices in Boston using machine learning algorithms
+
 
 ## Project Plan
 
